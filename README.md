@@ -1,63 +1,87 @@
-# DcsProducer® AEGIS Hub Core — Pacote de Exportação
+# DcsProducer® AEGIS Hub Core
 
-**Titular:** DcsProducer®  
-**Data de geração:** 2026-10-16  
-**Sessão AEGIS:** aegis-20261016-233741  
-**Governança:** AEGIS Layer  
+![DcsProducer AEGIS Hub Core](docs/aegis-ecosystem-diagram.png)
 
----
-
-## Conteúdo do Pacote
-
-```
-dcsproducer-aegis-export/
-├── skills/
-│   ├── dcsproducer-aegis-hub-core/     ← Skill principal + orchestrator
-│   └── six-pillars-engineer/           ← Skill irmã prioritária
-├── labs/
-│   ├── lab-01-observability-rag/
-│   ├── lab-02-devsecops-agentic/
-│   ├── lab-03-event-driven-agents/
-│   └── lab-04-clean-arch-containers/
-├── scripts/
-│   └── aegis_orchestrator.py           ← Kernel de governança
-├── docs/
-│   ├── dcsproducer-aegis-hub-core-completo-20261016.pdf
-│   ├── dcsproducer-9-pilares-aegis-20261016.pdf
-│   └── dcsproducer-9-pilares-aegis-20261016.html
-├── architecture/
-│   └── dcsproducer-aegis-os-high-level.md
-├── licensing/
-│   └── modelo-licenciamento-dcsproducer-aegis.md
-├── brand/
-│   └── dcsproducer-brand.md
-└── README.md                           ← este arquivo
-```
+> **Sistema operacional de produção com GenAI + MetaRAG**  
+> Governança AEGIS · 9 Pilares · Labs · Skills  
+> **Titular:** DcsProducer®
 
 ---
 
-## Como usar o Orchestrator
+## Visão
+
+O **DcsProducer AEGIS Hub Core** é a camada de governança e orquestração de todo o ecossistema DcsProducer.  
+Ele une Hub Core MetaRAG, AEGIS Layer, 9 Pilares de Engenharia de Software, laboratórios práticos e skills irmãs sob uma única diretriz de produção.
 
 ```bash
-python scripts/aegis_orchestrator.py --init      # inicia sessão + alinhamento
-python scripts/aegis_orchestrator.py --status    # snapshot
-python scripts/aegis_orchestrator.py --lab 01    # prepara lab
+python scripts/aegis_orchestrator.py --init
+```
+
+---
+
+## Estrutura do Repositório
+
+```
+├── architecture/          ← Arquitetura de alto nível (AEGIS OS)
+├── licensing/             ← Modelo de licenciamento
+├── skills/
+│   ├── dcsproducer-aegis-hub-core/
+│   └── six-pillars-engineer/
+├── labs/                  ← Labs 01–04 (dentro do ZIP)
+├── scripts/               ← aegis_orchestrator.py
+├── docs/                  ← PDFs, HTML e diagrama
+├── brand/                 ← Guidelines da marca
+└── dcsproducer-aegis-export-20261016.zip  ← Pacote completo
+```
+
+---
+
+## Componentes Principais
+
+| Camada | Conteúdo |
+|--------|----------|
+| **AEGIS Layer** | Governança · Proteção · Inteligência |
+| **9 Pilares** | DevOps · Microsserviços · Serverless · Containers · Arquitetura Limpa · DDD · Observability · DevSecOps · Event-Driven |
+| **Skills** | dcsproducer-aegis-hub-core + six-pillars-engineer (+ irmãs) |
+| **Labs** | 01 Observability+RAG · 02 DevSecOps+Agentic · 03 Event-Driven · 04 Clean Arch+Containers |
+| **Hub Core** | MetaRAG — https://dcsproducer-hub-pqj9.vercel.app |
+
+---
+
+## Como iniciar
+
+```bash
+# 1. Extrair o pacote completo (se necessário)
+unzip dcsproducer-aegis-export-20261016.zip
+
+# 2. Inicializar governança AEGIS
+python scripts/aegis_orchestrator.py --init
+
+# 3. Ver status de alinhamento
+python scripts/aegis_orchestrator.py --status
+
+# 4. Preparar um lab
+python scripts/aegis_orchestrator.py --lab 01
 ```
 
 ---
 
 ## Propriedade Intelectual
 
-Todo o conteúdo deste pacote é de propriedade de **DcsProducer®**.  
+Todo o conteúdo deste repositório é de propriedade de **DcsProducer®**.  
 Uso comercial, redistribuição ou white-label requer licença formal.  
-Consulte `licensing/modelo-licenciamento-dcsproducer-aegis.md`.
+Consulte [`licensing/modelo-licenciamento-dcsproducer-aegis.md`](licensing/modelo-licenciamento-dcsproducer-aegis.md).
 
 ---
 
-## Arquitetura de Alto Nível
+## Documentação
 
-Consulte `architecture/dcsproducer-aegis-os-high-level.md` para a visão do **DcsProducer AEGIS OS**.
+- [Arquitetura de Alto Nível](architecture/dcsproducer-aegis-os-high-level.md)
+- [Modelo de Licenciamento](licensing/modelo-licenciamento-dcsproducer-aegis.md)
+- [Skill Principal](skills/dcsproducer-aegis-hub-core/SKILL.md)
+- [Six Pillars Engineer](skills/six-pillars-engineer/SKILL.md)
 
 ---
 
-**Gerado sob governança AEGIS · Skill dcsproducer-aegis-hub-core**
+**DcsProducer® Creative Studio**  
+Governança AEGIS · Produção com GenAI + MetaRAG
