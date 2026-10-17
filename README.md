@@ -1,6 +1,6 @@
 # DcsProducer® AEGIS Hub Core
 
-![DcsProducer AEGIS Hub Core](docs/aegis-ecosystem-diagram.png)
+![DcsProducer AEGIS Hub Core](docs/docsaegis-ecosystem-diagram.png)
 
 > **Sistema operacional de produção com GenAI + MetaRAG**  
 > Governança AEGIS · 9 Pilares · Labs · Skills  
