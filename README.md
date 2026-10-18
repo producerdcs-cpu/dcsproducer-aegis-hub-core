@@ -77,6 +77,7 @@ Consulte [`licensing/modelo-licenciamento-dcsproducer-aegis.md`](licensing/model
 ## Documentação
 
 - [Arquitetura de Alto Nível](architecture/dcsproducer-aegis-os-high-level.md)
+- [Registro da linha RAG (18/10/2026)](docs/registro-linha-rag-2026-10-18.md)
 - [Modelo de Licenciamento](licensing/modelo-licenciamento-dcsproducer-aegis.md)
 - [Skill Principal](skills/dcsproducer-aegis-hub-core/SKILL.md)
 - [Six Pillars Engineer](skills/six-pillars-engineer/SKILL.md)
