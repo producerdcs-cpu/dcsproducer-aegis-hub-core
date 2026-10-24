@@ -1,5 +1,7 @@
 # DcsProducer® AEGIS OS — Meta Global AI Developer Hackathon 2026
 
+![DcsProducer AEGIS Hub Core](./aegis-hub-core-cover.png)
+
 ![Hackathon](https://img.shields.io/badge/Meta-Global%20AI%20Hackathon-blue)
 ![Version](https://img.shields.io/badge/AEGIS%20OS-1.0.0-gold)
 ![Architecture](https://img.shields.io/badge/Architecture-L0--L5%20%2B%20Circular%20Hub-black)
