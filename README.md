@@ -13,8 +13,8 @@
 - Core Hub AEGIS: https://core-hub-aegis.vercel.app/
 - MetaRAG Hub: https://dcsproducer-hub-pqj9.vercel.app/
 - Public architecture case (fail-closed ADR): https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
-- LinkedIn evidence: https://lnkd.in/dzzimXRB
-
+- LinkedIn evidence: 
+https://www.linkedin.com/mwlite/profile/in/dcs-producer-78b075415/recent-activity
 ---
 
 ## Dual architecture
