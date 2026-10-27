@@ -4,6 +4,7 @@
 > RAG Lab: https://dcsproducer-hub-pqj9.vercel.app/
 > Video Demo: https://youtu.be/BhjgvwJuWxA
 > Global AI Developer | Cerebral Valley Candidate 2026 | Ready for Integration
+
 # DcsProducer® AEGIS OS — Meta Global AI Developer Hackathon 2026
 
 ![DcsProducer AEGIS Hub Core](./aegis-hub-core-cover.png)
@@ -15,12 +16,23 @@
 
 > **Governance · Protection · Intelligence** — A production OS layer above any stack that governs GenAI workloads with **fail-closed** security.
 
+## Visibilidade e canônico (importante)
+
+| Papel | Repositório | Visibilidade |
+|-------|-------------|--------------|
+| **Canônico** (código + console + motor) | `producerdcs-cpu/AEGISMultiSecurity` | **Privado** |
+| **Pointer oficial** (manifesto) | `producerdcs-cpu/aegis-dcs` | Público (README + NOTICE apenas) |
+| **Este repositório** | `dcsproducer-aegis-hub-core` | **Público — demo / portfólio / evidência de concurso** |
+
+Este repositório é a **camada de demonstração pública** (arquitetura high-level, orchestrator de exemplo, skills sanitizadas, lives e scores de segurança por extensividade).  
+**O motor canônico, console operacional e dados de uso controlado permanecem exclusivamente no repositório privado `AEGISMultiSecurity`.** Não há DUC nem segredos de produção aqui.
+
 **Live demos (no mockups):**
 - Core Hub AEGIS: https://core-hub-aegis.vercel.app/
 - MetaRAG Hub: https://dcsproducer-hub-pqj9.vercel.app/
 - Public architecture case (fail-closed ADR): https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
-- LinkedIn evidence: 
-https://www.linkedin.com/mwlite/profile/in/dcs-producer-78b075415/recent-activity
+- LinkedIn evidence: https://www.linkedin.com/mwlite/profile/in/dcs-producer-78b075415/recent-activity
+
 ---
 
 ## Dual architecture
