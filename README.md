@@ -1,3 +1,9 @@
+# CORE HUB AEGIS - Executive Portfolio
+> Hub central de projetos, competências e carreira | MetaRAG + AEGIS Layer + Fail-Closed Governance
+> Live: https://core-hub-aegis.vercel.app/
+> RAG Lab: https://dcsproducer-hub-pqj9.vercel.app/
+> Video Demo: https://youtu.be/BhjgvwJuWxA
+> Global AI Developer | Cerebral Valley Candidate 2026 | Ready for Integration
 # DcsProducer® AEGIS OS — Meta Global AI Developer Hackathon 2026
 
 ![DcsProducer AEGIS Hub Core](./aegis-hub-core-cover.png)
